@@ -3,4 +3,4 @@
   to = "https://gridpaneapp.com/:splat"
   status = 200
   force = true
-  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
+  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "https://gridpaneapp.com/*"}
