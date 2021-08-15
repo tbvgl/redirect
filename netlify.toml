@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/gridpaneapp"
+  to = gridpaneapp
   status = 200
   force = true
   [redirects.headers]
