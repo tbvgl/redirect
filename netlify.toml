@@ -9,11 +9,5 @@
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
-  
-[[redirects]]
-  from = "/api/1.1/init/data?location=https%3A%2F%2Fawesome-torvalds-6760ac.netlify.app/:splat*"
-  to = "/api/1.1/init/data?location=https%3A%2F%2Fapp.gridpaneapp.com%2F:splat"
-  status = 200
-  force = true
-  headers = {X-From = "netlify123", Host = "app.gridpaneapp.com", Access-Control-Allow-Origin = "*"}
+ 
 
