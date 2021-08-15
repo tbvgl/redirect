@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://gridpane.com"
+  to = "https://gridpaneapp.com"
   status = 200
   force = true
   conditions = {Role = ["admin", "cms"]}
