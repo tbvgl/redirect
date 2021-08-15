@@ -1,15 +1,4 @@
-[[redirects]]
-  from = "/*"
-  to = "https://gridpaneapp.com"
-  status = 200
-  force = true
 
-[[redirects]]
-  from = "/cors-proxy/*"
-  to = ":splat"
-  status = 200
-  force = true
-  
 [redirects.headers]
   Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
   Host = "gridpaneapp.com"
