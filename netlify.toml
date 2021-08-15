@@ -1,6 +1,11 @@
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
 [[redirects]]
   from = "/*"
   to = "https://gridpaneapp.com/:splat"
   status = 200
   force = true
-  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "https://gridpaneapp.com/*"}
+  headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
