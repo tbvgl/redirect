@@ -5,8 +5,8 @@
   force = true
   
 [[redirects]]
-  from = "/reset_pw"
-  to = "https://gridpaneapp.com/reset_pw"
+  from = "/reset_pw/"
+  to = "https://gridpaneapp.com/reset_pw/"
   status = 200
   force = true
   
