@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/*"
+  to = "https://gridpane.com"
+  status = 200
+  force = true
+  conditions = {Role = ["admin", "cms"]}
+  [redirects.headers]
+    X-From = "Netlify"
