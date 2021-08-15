@@ -4,3 +4,8 @@
   Host = "gridpaneapp.com"
   Referer = "https://gridpaneapp.com"
   Access-Control-Allow-Origin = *
+  
+[[headers]]
+    for = "/*"
+    [headers.values]
+        Access-Control-Allow-Origin = "*"
