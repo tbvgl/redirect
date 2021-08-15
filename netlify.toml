@@ -19,6 +19,5 @@
 [redirects.headers]
   Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
   Host = "gridpaneapp.com"
-  Referer Policy = "strict-origin-when-cross-origin"
   Referer = "https://gridpaneapp.com"
   Access-Control-Allow-Origin= "*"
