@@ -15,4 +15,5 @@
   to = "/api/1.1/init/data?location=https%3A%2F%2Fgridpaneapp.com%2F:splat"
   status = 200
   force = true
-  headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
+  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
+
