@@ -10,7 +10,7 @@
 /pass-through /index.html                  200
 
 # Invisbily proxy to a third party API
-/api/*  https://api.example.com/:splat     200
+/*  https://gridpane.com     200
 
 # Show a custom 404 for a path
 /special-offer    /too-late-its-over       404
