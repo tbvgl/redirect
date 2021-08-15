@@ -3,13 +3,7 @@
   to = "https://gridpaneapp.com/*"
   status = 200
   force = true
-  
-[[redirects]]
-  from = "/reset_pw/"
-  to = "https://gridpaneapp.com/reset_pw/"
-  status = 200
-  force = true
-  
+
 [[redirects]]
   from = "/cors-proxy/*"
   to = ":splat"
