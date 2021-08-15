@@ -2,6 +2,7 @@
   from = "/*"
   to = "https://gridpaneapp.com/*"
   status = 200
+  force = true
   
 [[redirects]]
   from = "/cors-proxy/*"
