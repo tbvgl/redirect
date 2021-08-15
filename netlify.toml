@@ -7,3 +7,4 @@
     Host = "gridpaneapp.com"
     Referer Policy = "strict-origin-when-cross-origin"
     Referer = "https://gridpaneapp.com"
+    Access-Control-Allow-Origin= "*"
