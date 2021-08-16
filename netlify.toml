@@ -2,12 +2,23 @@
   directory = "netlify_functions"
 
 [build]
-  function = "cors"
+  functions = "netlify_functions"
 
+[dev]
+  funtions = "netlify_functions"
+  publish = "/"
+  
 [[headers]]
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/cors/https://app.gridpaneapp.com/api/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
 
 [[redirects]]
   from = "/*"
