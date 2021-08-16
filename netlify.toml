@@ -13,7 +13,7 @@
   Host = "gridpaneapp.com"
   Access-Control-Allow-Origin = "*"
 
-  [[redirects]]
+[[redirects]]
   from = "/*"
   to = "https://app.gridpaneapp.com/:splat"
   status = 200
