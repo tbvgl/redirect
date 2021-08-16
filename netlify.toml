@@ -22,7 +22,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://app.gridpaneapp.com/*"
+  to = "https://app.gridpaneapp.com/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
