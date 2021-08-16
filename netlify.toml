@@ -10,8 +10,8 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
-  from = "/api/1.1/init/data?location=https://gridpaneapp.com/"
-  to = "https://app.gridpane.com/api/1.1/init/data?location=https://app.gridpaneapp.com/"
+  from = "/api/1.1/init/*"
+  to = "https://app.gridpane.com/api/1.1/init/:splat"
   status = 301
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
