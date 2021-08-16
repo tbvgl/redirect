@@ -11,7 +11,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/cors/https://app.gridpaneapp.com/:splat"
+  to = ".netlify/functions/cors/https://app.gridpaneapp.com/:splat"
   status = 200
   force = true
-  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Origin = "gridpaneapp.com"}
+  headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
