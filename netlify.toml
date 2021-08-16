@@ -10,7 +10,7 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/.netlify/functions/cors/https://app.gridpaneapp.com/"
   status = 200
   force = true
