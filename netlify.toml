@@ -10,15 +10,15 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
-  from = "/api/1.1/init/data?location=https://gridpaneapp.com*/"
-  to = "/api/1.1/init/data?location=https://app.gridpaneapp.com*/"
+  from = "/api/1.1/init/*"
+  to = "https://app.gridpane.co/api/1.1/init/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
 
   [[redirects]]
-  from = "/*"
-  to = "https://app.gridpaneapp.com/:splat"
+  from = "/"
+  to = "https://app.gridpaneapp.com/"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
