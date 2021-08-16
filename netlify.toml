@@ -8,7 +8,7 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "/.netlify/functions/cors/https://app.gridpaneapp.com/api/:splat"
+  to = "/gridpaneapp.com/api/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com", Origin = "gridpaneapp.com"}
