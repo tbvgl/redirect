@@ -9,16 +9,9 @@
     [headers.values]
     Access-Control-Allow-Origin = "*"
 
-[[redirects]]
-  from = "/api/1.1/init/*"
-  to = "/catch/"
-  status = 301
-  force = true
-  headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
-
   [[redirects]]
-  from = "/"
-  to = "https://app.gridpaneapp.com/"
+  from = "/*"
+  to = "https://app.gridpaneapp.com/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
