@@ -15,6 +15,7 @@ exports.handler = async (event, context) => {
 	var header_to_send= {
 		"Cookie": cookie_string,
 		"User-Agent": useragent,
+		"Access-Control-Allow-Origin": "*",
 		"content-type": "application/json",
 		"accept": "*/*",
 		"host": url.host
