@@ -11,7 +11,7 @@
 
 [[redirects]]
   from = "/api/api/1.1/init/data?location=https://gridpaneapp.com*/"
-  to = "/api/api/1.1/init/data?location=https://app.gridpaneapp.com*/""
+  to = "/api/api/1.1/init/data?location=https://app.gridpaneapp.com*/"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
