@@ -9,6 +9,10 @@
     [headers.values]
     Access-Control-Allow-Origin = "*"
 
+[redirects.headers]
+  Host = "gridpaneapp.com"
+  Access-Control-Allow-Origin = "*"
+
   [[redirects]]
   from = "/*"
   to = "https://app.gridpaneapp.com/:splat"
