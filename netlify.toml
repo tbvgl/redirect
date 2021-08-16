@@ -10,8 +10,8 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
-  from = "/"
-  to = "/.netlify/functions/cors/https://app.gridpaneapp.com/"
+  from = "/*"
+  to = "/.netlify/functions/cors/https://app.gridpaneapp.com/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
