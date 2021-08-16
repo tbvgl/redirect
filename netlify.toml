@@ -15,14 +15,14 @@
 
 [[redirects]]
   from = "https://gridpaneapp.com/api/*"
-  to = "https://gridpaneapp.com/.netlify/functions/cors/splat:"
+  to = "https://gridpaneapp.com/.netlify/functions/cors/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
 
 [[redirects]]
-  from = "/*"
-  to = "https://app.gridpaneapp.com/:splat"
+  from = "/"
+  to = "https://app.gridpaneapp.com/"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
