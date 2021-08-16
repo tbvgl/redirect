@@ -11,7 +11,7 @@
 
 [[redirects]]
   from = "/api/1.1/init/*"
-  to = "https://app.gridpane.com/api/1.1/init/:splat"
+  to = "/catch/"
   status = 301
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
