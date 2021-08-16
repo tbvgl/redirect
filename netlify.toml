@@ -15,7 +15,7 @@
 
 [[redirects]]
   from = "https://app.gridpaneapp.com/api/*"
-  to = "/.netlify/functions/cors/"
+  to = "/.netlify/functions/cors/https://jsonplaceholder.typicode.com/todos/1"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
