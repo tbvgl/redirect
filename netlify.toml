@@ -1,5 +1,5 @@
-[functions]
-  directory = "netlify_functions"
+[build]
+  function = "netlify_functions"
 
 [[headers]]
   for = "/*"
@@ -8,7 +8,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://app.gridpaneapp.com/:splat"
+  to = "/.netlify/cors/https://app.gridpaneapp.com/:splat"
   status = 200
   force = true
   headers = {X-From = "netlify123", Host = "gridpaneapp.com"}
