@@ -6,7 +6,7 @@
     [headers.values]
     Access-Control-Allow-Origin = "*"
 
-[redirects]]
+[[redirects]]
   from = "https://app.gridpaneapp.com/api/*"
   to = "/.netlify/functions/cors/https://app.gridpaneapp.com/api/:splat"
   status = 200
