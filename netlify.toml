@@ -14,6 +14,13 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
+  from = "https://app.gridpaneapp.com/api/test/*"
+  to = "https://gridpaneapp.com/.netlify/functions/cors/splat:"
+  status = 200
+  force = true
+  headers = {X-From = "netlify123", Host = "gridpaneapp.com", Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
   from = "https://app.gridpaneapp.com/api/*"
   to = "https://gridpaneapp.com/.netlify/functions/cors/https://app.gridpaneapp.com/api/:splat"
   status = 200
